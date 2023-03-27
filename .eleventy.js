@@ -5,6 +5,7 @@ module.exports = function (eleventyConfig)
   eleventyConfig.addPassthroughCopy("media");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("**/*.jpg");
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addWatchTarget("media");
   eleventyConfig.addWatchTarget("css");
