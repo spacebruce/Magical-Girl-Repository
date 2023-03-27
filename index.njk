@@ -1,0 +1,45 @@
+---
+title: Timeline
+layout: layouts/base.njk
+eleventyExcludeFromCollections: true
+pagination:
+  data: collections.posts
+  size: 9999
+  alias: posts
+---
+<h1>Timeline</h1>
+<ul>
+    {% for post in posts %}
+        <div class="item">
+            <div class="item_image">
+                <div><img src="/media/{{ post.data.id }}/icon.jpg"/><span>{{ post.date | htmlDateString }}</span></div>
+            </div>
+            <div class="details">
+                <div>
+                    <h1><a href="{{ post.url | url }}">{{ post.data.title }}<br>{{ post.data.name }}</a></h1>
+                    <div class="item_tags">
+                    {% for tag in post.data.tags %}
+                        {% if tag != "posts" %}
+                            {% set tagUrl %}/tags/{{ tag }}/{% endset %}<div class="tag"><span class="tag">{{ tag }}</span></div>
+                        {% endif %}   
+                        {% endfor %}
+                    </div>
+                    {{ post.data.description }}
+                </div>
+            </div>
+        </div>
+    </div>{% endfor %}
+</ul>
+<!--
+<nav>
+  <ol class="inline-li">
+    <li>{% if page.url != pagination.href.first %}<a href="{{ pagination.href.first }}">⟪</a>{% else %}⟪{% endif %}</li>
+    <li>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">⟨</a>{% else %}⟨{% endif %}</li>
+{%- for pageEntry in pagination.pages %}
+    <li><a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>{{ loop.index }}</a></li>
+{%- endfor %}
+    <li>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">⟩</a>{% else %}⟩{% endif %}</li>
+    <li>{% if page.url != pagination.href.last %}<a href="{{ pagination.href.last }}">⟫</a>{% else %}⟫{% endif %}</li>
+  </ol>
+</nav>
+-->
