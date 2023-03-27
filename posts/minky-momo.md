@@ -4,7 +4,7 @@ title: Magical Princess Minky Momo
 name: 魔法のプリンセス ミンキー モモ
 description: Description Text
 id : minky-momo
-tags: ['minky-momo', 'princess', 'single-heroine']
+tags: ['minky-momo', 'princess', 'single heroine']
 date: 1982-03-18
 ---
 
