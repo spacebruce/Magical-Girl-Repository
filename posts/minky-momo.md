@@ -4,8 +4,11 @@ title: Magical Princess Minky Momo
 name: 魔法のプリンセス ミンキー モモ
 description: Description Text
 id : minky-momo
+episodes: 62
+format: TV
 tags: ['minky-momo', 'princess', 'single heroine']
 date: 1982-03-18
+enddate: 1983-03-18
 ---
 
 <b>Episode List</b>

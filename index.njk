@@ -16,14 +16,15 @@ pagination:
             </div></a>
             <div class="details">
                 <div>
-                    <a href="{{ post.url | url }}"><h1>{{ post.data.title }}<br>{{ post.data.name }}</h1></a>
                     <div class="item_tags">
+                    <div class="tag"><img src="/media/assets/tags/format_{{ post.data.format }}.png"></div>
                     {% for tag in post.data.tags %}
                         {% if tag != "posts" %}
-                            {% set tagUrl %}/tags/{{ tag }}/{% endset %}<div class="tag"><span class="tag">{{ tag }}</span></div>
+                            <a href="/tags/{{ tag }}"><img class="tag" src="/media/assets/tags/{{ tag }}.png"</img></a>
                         {% endif %}   
-                        {% endfor %}
+                    {% endfor %}
                     </div>
+                    <a href="{{ post.url | url }}"><h1>{{ post.data.title }}<br>{{ post.data.name }}</h1></a>
                     {{ post.data.description }}
                 </div>
             </div>
