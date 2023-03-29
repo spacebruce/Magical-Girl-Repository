@@ -9,27 +9,27 @@ pagination:
 ---
 <h1>Timeline</h1>
 <ul>
+    <div class="timeline">
     {% for post in posts %}
         <div class="item">
-            <a href="{{ post.url | url }}"><div class="item_image">
-                <div><img src="/media/{{ post.data.id }}/icon.jpg"/><span>{{ post.date | justYear }}</span></div>
+            <a href="{{ post.url | url }}"><div class="icon">
+                <img src="/media/{{ post.data.id }}/icon.jpg"/><span>{{ post.date | justYear }}</span>
             </div></a>
             <div class="details">
-                <div>
-                    <div class="item_tags">
-                    <div class="tag"><img src="/media/assets/tags/format_{{ post.data.format }}.png"></div>
-                    {% for tag in post.data.tags %}
-                        {% if tag != "posts" %}
-                            <a href="/tags/{{ tag }}"><img class="tag" src="/media/assets/tags/{{ tag }}.png"</img></a>
-                        {% endif %}   
-                    {% endfor %}
-                    </div>
-                    <a href="{{ post.url | url }}"><h1>{{ post.data.title }}<br>{{ post.data.name }}</h1></a>
-                    {{ post.data.description }}
+                <div class="item_tags">
+                <div class="tag"><img src="/media/assets/tags/format_{{ post.data.format }}.png"></div>
+                {% for tag in post.data.tags %}
+                    {% if tag != "posts" %}
+                        <a href="/tags/{{ tag }}"><img class="tag" src="/media/assets/tags/{{ tag }}.png"</img></a>
+                    {% endif %}   
+                {% endfor %}
                 </div>
+                <a href="{{ post.url | url }}"><h1>{{ post.data.title }}<br>{{ post.data.name }}</h1></a>
+                {{ post.data.description }}
             </div>
         </div>
     </div>{% endfor %}
+    </div>
 </ul>
 <!--
 <nav>

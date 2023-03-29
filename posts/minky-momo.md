@@ -15,6 +15,6 @@ enddate: 1983-03-18
 <table>
 <tr><th>Image</th><th>Episode</th><th>Date</th><th>Title</th><th>Japanese</th><th>Notes</th>
 {%- for post in collections.minky-momo-episodes -%}
-  <tr><th><img src="{{ post.url | url }}{{ post.data.image }}"></th><th><a href="{{ post.url | url }}">{{ post.data.episode }}</a></th><th>{{ post.date | readableDate }}</th><th>{{ post.data.title }}</th><th>{{ post.data.name }}</th></tr></a>
+  <tr><th><img src="{{ post.url | url }}{{ post.data.image }}" style="height:5em;"></th><th><a href="{{ post.url | url }}">{{ post.data.episode }}</a></th><th>{{ post.date | readableDate }}</th><th>{{ post.data.title }}</th><th>{{ post.data.name }}</th></tr></a>
 {%- endfor -%}
 </table>
