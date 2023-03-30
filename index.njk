@@ -3,17 +3,16 @@ title: Timeline
 layout: layouts/base.njk
 eleventyExcludeFromCollections: true
 pagination:
-  data: collections.posts
+  data: collections.series
   size: 9999
-  alias: posts
+  alias: series
 ---
-<h1>Timeline</h1>
-<ul>
-    <div class="timeline">
-    {% for post in posts %}
-        <div class="item">
-            <a href="{{ post.url | url }}"><div class="icon">
-                <img src="/media/{{ post.data.id }}/icon.jpg"/><span>{{ post.date | justYear }}</span>
+<article>
+    <ul class="timeline">
+    {% for post in series %}
+        <li class="event" data-date="{{ post.date }}">
+            <a href="{{ post.url | url }}">
+                <img class="icon" src="/media/{{ post.data.id }}/icon.jpg"/><span>{{ post.date | justYear }}</span>
             </div></a>
             <div class="details">
                 <div class="item_tags">
@@ -27,10 +26,10 @@ pagination:
                 <a href="{{ post.url | url }}"><h1>{{ post.data.title }}<br>{{ post.data.name }}</h1></a>
                 {{ post.data.description }}
             </div>
-        </div>
+        </li>
     </div>{% endfor %}
     </div>
-</ul>
+<article>
 <!--
 <nav>
   <ol class="inline-li">
