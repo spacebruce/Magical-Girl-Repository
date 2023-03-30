@@ -1,9 +1,9 @@
 ---
 layout: layouts/base.njk
 ---
-<div class = "item"><div class="item_image">
-                <div><img src="/media/{{ id }}/icon.jpg"/></div>
-            </div>
+<div class="item_image">
+    <img src="/media/{{ id }}/icon.jpg"/>
+</div>
 <div class="details"><div>
 <h2 class="post-title">{{ title }}</h2>
 <h2 class="post-title">{{ name }}</h2>
@@ -11,6 +11,4 @@ layout: layouts/base.njk
 <img class="featured-image" src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
 </div></div></div>
 
-<div class = "item"><div class="details"><div>
 <article class="post-content"> {{ content | safe }} </article>
-</div></div></div>

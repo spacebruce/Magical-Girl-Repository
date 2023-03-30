@@ -2,6 +2,9 @@
 layout: layouts/base.njk
 tags: episodes
 ---
+<div class="item_image">
+    <img src="{{ url }}{{ image }}"/>
+</div>
 <h2 class="post-title">{{ title }}</h2>
 <h3 class="post-date">{{ date | readableDate }}</h3>
 <img class="featured-image" src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>

@@ -4,37 +4,69 @@ body {
   overflow-y: scroll;
 }
 
-.timeline
+header
 {
-  max-width: 1000px;
-}
-.item
-{
-  display: flex;
-}
-.item .icon
-{  
-}
-.item .icon img
-{
-  width:128px;
-}
-.item .icon span {
-  display: block;
-  clear: both;
-  padding: 0.25em 0;
-  margin: 0.5em 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
   background: #3b4262;
 }
-.item .details
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Exo 2', sans-serif;
+	line-height: 1.5;
+}
+
+.icon
 {
-  float:right;
+  border-radius: 50%;
+  max-width:128px;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 0 16.66% 50px;
+	width: 100%;
+}
+
+article {
+	position: relative;
+	max-width: 1366px;
+	margin: 0 auto;
+}
+
+article
+{
+  max-width:1366px;
   border: 2px solid #232b50;
-  width:800px;
   border-radius: 0.5em;
   padding: 1.5em;
   margin: 1em 0;
   background-color: white;
+}
+
+.EpisodeList img
+{
+  height:5em;
+}
+.EpisodeList tr:nth-of-type(odd) {
+  background-color:#ccc;
+}
+article table
+{
+  text-align: center;
+  max-width: 100%;
+  width: 100%;
+}
+th, td
+{
+  overflow:auto;
 }
 
 a:visited { text-decoration: none;  }
