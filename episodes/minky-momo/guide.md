@@ -6,7 +6,7 @@ description: Description Text
 id : minky-momo
 episodes: 62
 format: TV
-tags: ['minky-momo', 'princess', 'single heroine']
+tags: ['guide']
 date: 1982-03-18
 enddate: 1983-03-18
 ---

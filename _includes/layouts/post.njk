@@ -1,14 +1,16 @@
 ---
 layout: layouts/base.njk
 ---
-<div class="item_image">
-    <img src="/media/{{ id }}/icon.jpg"/>
+<div class="articleHeader">
+    <div class="item_image">
+        <img src="/media/{{ id }}/icon.jpg"/>
+    </div>
+    <div class="details">
+        <h2 class="post-title">{{ title }}</h2>
+        <h2 class="post-title">{{ name }}</h2>
+        <h3 class="post-date">{{ date | readableDate }}</h3>
+        <img class="featured-image" src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
+    </div>
 </div>
-<div class="details"><div>
-<h2 class="post-title">{{ title }}</h2>
-<h2 class="post-title">{{ name }}</h2>
-<h3 class="post-date">{{ date | readableDate }}</h3>
-<img class="featured-image" src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
-</div></div></div>
 
-<article class="post-content"> {{ content | safe }} </article>
+<article> {{ content | safe }} </article>

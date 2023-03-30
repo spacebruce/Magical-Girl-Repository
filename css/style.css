@@ -23,31 +23,23 @@ body {
 	line-height: 1.5;
 }
 
+header
+{
+  text-align: center;
+  color: white;
+}
 .icon
 {
   border-radius: 50%;
   max-width:128px;
 }
 
-.wrapper {
-	margin: 0 auto;
-	padding: 0 16.66% 50px;
-	width: 100%;
-}
-
-article {
-	position: relative;
-	max-width: 1366px;
-	margin: 0 auto;
-}
-
-article
-{
-  max-width:1366px;
+article, .articleHeader {
+	max-width: 1366px;  
+  margin: auto;
   border: 2px solid #232b50;
   border-radius: 0.5em;
   padding: 1.5em;
-  margin: 1em 0;
   background-color: white;
 }
 
@@ -64,12 +56,16 @@ article table
   max-width: 100%;
   width: 100%;
 }
+article table img
+{
+  max-width: 100%;
+}
 th, td
 {
   overflow:auto;
 }
 
-a:visited { text-decoration: none;  }
-a:hover { text-decoration: none;  }
-a:focus { text-decoration: none;  }
-a:hover, a:active { text-decoration: none;  }
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black; }

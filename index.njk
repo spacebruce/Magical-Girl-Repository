@@ -10,7 +10,7 @@ pagination:
 <article>
     <ul class="timeline">
     {% for post in series %}
-        <li class="event" data-date="{{ post.date }}">
+        <li class="event" data-date="{{ post.date | readableDate }}">
             <a href="{{ post.url | url }}">
                 <img class="icon" src="/media/{{ post.data.id }}/icon.jpg"/><span>{{ post.date | justYear }}</span>
             </div></a>
@@ -18,7 +18,7 @@ pagination:
                 <div class="item_tags">
                 <div class="tag"><img src="/media/assets/tags/format_{{ post.data.format }}.png"></div>
                 {% for tag in post.data.tags %}
-                    {% if tag != "posts" %}
+                    {% if tag != "series" %}
                         <a href="/tags/{{ tag }}"><img class="tag" src="/media/assets/tags/{{ tag }}.png"</img></a>
                     {% endif %}   
                 {% endfor %}
@@ -30,16 +30,3 @@ pagination:
     </div>{% endfor %}
     </div>
 <article>
-<!--
-<nav>
-  <ol class="inline-li">
-    <li>{% if page.url != pagination.href.first %}<a href="{{ pagination.href.first }}">⟪</a>{% else %}⟪{% endif %}</li>
-    <li>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">⟨</a>{% else %}⟨{% endif %}</li>
-{%- for pageEntry in pagination.pages %}
-    <li><a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>{{ loop.index }}</a></li>
-{%- endfor %}
-    <li>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">⟩</a>{% else %}⟩{% endif %}</li>
-    <li>{% if page.url != pagination.href.last %}<a href="{{ pagination.href.last }}">⟫</a>{% else %}⟫{% endif %}</li>
-  </ol>
-</nav>
--->

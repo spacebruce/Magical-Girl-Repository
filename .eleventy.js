@@ -8,6 +8,8 @@ module.exports = function (eleventyConfig)
   eleventyConfig.addPassthroughCopy("episodes/**/*.jpg");
   eleventyConfig.addWatchTarget("media");
   eleventyConfig.addWatchTarget("css");
+  eleventyConfig.addWatchTarget("series");
+  eleventyConfig.addWatchTarget("episodes");
 
   const { DateTime } = require("luxon");
 
