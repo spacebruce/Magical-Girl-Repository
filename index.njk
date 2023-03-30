@@ -8,12 +8,12 @@ pagination:
   alias: series
 ---
 <article>
-    <ul class="timeline">
+    <div class="timeline">
     {% for post in series %}
-        <li class="event" data-date="{{ post.date | readableDate }}">
+        <div class="articleHeader" data-date="{{ post.date | readableDate }}">
             <a href="{{ post.url | url }}">
                 <img class="icon" src="/media/{{ post.data.id }}/icon.jpg"/><span>{{ post.date | justYear }}</span>
-            </div></a>
+            </a>
             <div class="details">
                 <div class="item_tags">
                 <div class="tag"><img src="/media/assets/tags/format_{{ post.data.format }}.png"></div>
@@ -26,7 +26,7 @@ pagination:
                 <a href="{{ post.url | url }}"><h1>{{ post.data.title }}<br>{{ post.data.name }}</h1></a>
                 {{ post.data.description }}
             </div>
-        </li>
+        </div>
     </div>{% endfor %}
     </div>
 <article>
