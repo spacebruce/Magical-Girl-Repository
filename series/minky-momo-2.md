@@ -9,7 +9,7 @@ id : minky-momo-2
 date: 1991-10-01
 ---
 
-Starting at episode 38, the show was given a new opening sequence and was renamed to 魔法のプリンセス ミンキーモモ 夢を抱きしめて, Magical Princess Minky Momo - Hold on to your Dreams.
+Initially the show was simply titled <ruby>Magical Princess Minky Momo<rt>魔法のプリンセス ミンキーモモ</rt></ruby>, the same as the <a href="/series/minky-momo/">original 1983 series</a>. Starting at episode 38, it was given a new opening sequence and was renamed to <ruby>Magical Princess Minky Momo - Hold on to your Dreams<rt>魔法のプリンセス ミンキーモモ 夢を抱きしめて</rt></ruby>.
 
 | Episodes 01 - 37 | Episodes 38 - 65 |
 | ----------- | ----------- |
