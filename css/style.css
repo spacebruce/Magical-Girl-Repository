@@ -1,5 +1,11 @@
+
+:root
+{
+  --background-col: #ecc5e0;
+}
+
 body {
-  background: #3b4262;
+  background: var(--background-col);
   font-family: arial, sans-serif;
   overflow-y: scroll;
 }
@@ -9,18 +15,13 @@ header
   position: sticky;
   top: 0;
   z-index: 999;
-  background: #3b4262;
+  background: var(--background-col);
 }
 
 *,
 *::before,
 *::after {
 	box-sizing: inherit;
-}
-
-body {
-	font-family: 'Exo 2', sans-serif;
-	line-height: 1.5;
 }
 
 header
@@ -35,33 +36,76 @@ header
   float: left;    
   margin: 0 15px 0 0;
 }
+ 
+.timeline_item
+{
+	background: hsl(187 70% 85%);
+	width: 100%;
+	border-radius: 0.5rem;
+	overflow: hidden;
+	border: 0.2rem solid;
+}
+.timeline_item_body
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+.timeline_item .timeline_image img
+{
+	aspect-ratio: 1;
+	object-fit: cover;
+	flex: 1 1 128px;
+	outline: 0.3em solid;
+  border-radius: 50%;
+  max-width:128px;
+  margin:15px;
+}
+.timeline_item_text {
+	padding: min(2rem, 5vw) min(2rem, 5vw) min(2.5rem, 5vw);
+	flex: 1 0 50%;
+}
+.timeline_item_text > * + * {
+	margin: min(1.5rem, 2.5vw) 0 0 0;
+}
+.timeline_item a .bigbutton {
+	display: inline-block;
+	color: black;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+	background: hsl(187 75% 64%);
+	border-radius: 0.6rem;
+	font-weight: 700;
+	border: 0.35rem solid;
+}
+.timeline_tags {
+  margin: 0px;
+  display: inline-flex;
+}
 
-article, .articleHeader {
-	max-width: 1366px;  
-  margin: auto;
+.articleHeader {
   text-align: center;
+}
+
+article, .articleHeader, .timeline {
+	max-width: 1280px;
+  margin: auto;
   border: 2px solid #232b50;
   border-radius: 0.5em;
   padding: 1.5em;
   background-color: white;
 }
 
-.EpisodeList img
-{
-  height:5em;
-}
-.EpisodeList tr:nth-of-type(odd) {
-  background-color:#ccc;
-}
 article table
 {
   text-align: center;
   max-width: 100%;
   width: 100%;
 }
-article table img
+article table img, article table video
 {
-  max-width: 100%;
+  width:100%;
+  height: auto;
+  object-fit: contain;
 }
 th, td
 {

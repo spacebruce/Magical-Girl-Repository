@@ -2,14 +2,16 @@
 layout: layouts/post.njk
 title: Magical Princess Minky Momo
 name: 魔法のプリンセス ミンキー モモ
-description: Description Text
+description: Minky Momo is a Princess from the kingdom of Fenrasia
 id : minky-momo
 episodes: 62
 format: TV
-tags: ['minky-momo', 'princess', 'single heroine']
+tags: ['minky-momo', 'age-transformation', 'princess', 'single heroine']
 date: 1982-03-18
 enddate: 1983-03-18
 ---
+
+The series was followed up by an <a href="/series/minky-momo/">OVA, La Ronde in my Dream</a>, set sometime in the latter half of the series, but before Minky Momo's death, and a sequel/reboot series, <a href="/series/minky-momo-2/">Magical Princess Minky Momo Hold on to Your Dreams in 1991</a> that often calls back to and refers to this series, but has a different Momo main character. It had several of it's own OVA sequels.  
 
 <b>Episode List</b>
 <table class="EpisodeList">

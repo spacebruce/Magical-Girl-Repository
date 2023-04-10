@@ -7,11 +7,28 @@ pagination:
   size: 9999
   alias: series
 ---
-<article>
     <div class="timeline">
     {% for post in series %}
+    <div class="timeline_item">
+        <a href="{{ post.url | url }}"><h1>{{ post.data.title }}</h1><h2>{{ post.data.name }}</h2></a>
+        
+        <div class="timeline_item_body">
+        <a class="timeline_image" href="{{ post.url | url }}"><img  src="/media/{{ post.data.id }}/icon.jpg"/></a>
+        <div class="timeline_tags"><div class="tag"><img src="/media/assets/tags/format_{{ post.data.format }}.png"></div>
+        {% for tag in post.data.tags %}
+            {% if tag != "series" %}
+                    <a href="/tags/{{ tag }}"><img class="tag" src="/media/assets/tags/{{ tag }}.png"</img></a>
+                {% endif %}   
+            {% endfor %}
+            </div>
+        <div class = "timeline_item_text">
+                {{ post.data.description }}
+        </div>
+        </div>
+    </div>
+    <!--
         <div class="articleHeader" data-date="{{ post.date | readableDate }}">
-            <a href="{{ post.url | url }}">
+            
                 <img class="icon" src="/media/{{ post.data.id }}/icon.jpg"/><span>{{ post.date | justYear }}</span>
             </a>
             <div class="details">
@@ -24,9 +41,8 @@ pagination:
                 {% endfor %}
                 </div>
                 <a href="{{ post.url | url }}"><h1>{{ post.data.title }}<br>{{ post.data.name }}</h1></a>
-                {{ post.data.description }}
             </div>
         </div>
-    </div>{% endfor %}
+    -->
+    {% endfor %}
     </div>
-<article>

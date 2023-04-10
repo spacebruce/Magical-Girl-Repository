@@ -10,4 +10,4 @@ date: 1995-07-07
 end: 1996-03-07
 ---
 
-Text for the post is here
+<img src="/media/assets/construction.jpg">
