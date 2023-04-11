@@ -40,10 +40,12 @@ header
 .timeline_item
 {
 	background: hsl(187 70% 85%);
-	width: 100%;
+	width: 100%; 
 	border-radius: 0.5rem;
 	overflow: hidden;
 	border: 0.2rem solid;
+  line-height: 0.5em;
+  text-align: center;
 }
 .timeline_item_body
 {
@@ -56,13 +58,14 @@ header
 	object-fit: cover;
 	flex: 1 1 128px;
 	outline: 0.3em solid;
-  border-radius: 50%;
   max-width:128px;
   margin:15px;
 }
 .timeline_item_text {
 	padding: min(2rem, 5vw) min(2rem, 5vw) min(2.5rem, 5vw);
 	flex: 1 0 50%;
+  text-align: left;
+  display: block;
 }
 .timeline_item_text > * + * {
 	margin: min(1.5rem, 2.5vw) 0 0 0;
@@ -80,6 +83,7 @@ header
 .timeline_tags {
   margin: 0px;
   display: inline-flex;
+  height: 1.5em;
 }
 
 .articleHeader {
@@ -87,7 +91,7 @@ header
 }
 
 article, .articleHeader, .timeline {
-	max-width: 1280px;
+	max-width: 1024px;
   margin: auto;
   border: 2px solid #232b50;
   border-radius: 0.5em;
@@ -107,9 +111,19 @@ article table img, article table video
   height: auto;
   object-fit: contain;
 }
+.EpisodeList img
+{
+  width:10vw;
+}
+
 th, td
 {
   overflow:auto;
+}
+
+.construction
+{
+  max-height: 50vh;
 }
 
 a:visited { text-decoration: none; color:black; }

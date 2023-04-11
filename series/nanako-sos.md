@@ -9,4 +9,4 @@ tags: ['single heroine', 'superhero']
 date: 1983-04-02
 ---
 
-Text for the post is here
+<img class="construction" src="/media/assets/construction.jpg">

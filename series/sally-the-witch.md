@@ -5,8 +5,8 @@ name: 魔法使いサニー
 description: Description Text
 format: TV
 date: 1966-12-05
-tags: ['witch', 'single heroine']
+tags: ['majokko', 'witch', 'single heroine']
 id: sally-the-witch
 ---
 
-Text for the post is here
+<img class="construction" src="/media/assets/construction.jpg">
