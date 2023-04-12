@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Magical Princess Minky Momo Hold on to Your Dreams
 name: 魔法のプリンセス ミンキーモモ 夢を抱きしめて
 description: Description Text
-tags: ['minky-momo', 'age-transformation', 'princess', 'single heroine']
+tags: ['series', 'minky-momo', 'age-transformation', 'princess', 'single heroine']
 format: TV
 id : minky-momo-2
 date: 1991-10-01

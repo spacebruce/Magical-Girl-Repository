@@ -5,14 +5,14 @@ module.exports = function (eleventyConfig)
   eleventyConfig.addPassthroughCopy("media");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("css");
-  eleventyConfig.addPassthroughCopy("episodes/**/*.jpg");
+  eleventyConfig.addPassthroughCopy("series/**/*.jpg");
+  eleventyConfig.addPassthroughCopy("series/**/*.png");
+  eleventyConfig.addPassthroughCopy("series/**/*.mp4");
   eleventyConfig.addWatchTarget("media");
   eleventyConfig.addWatchTarget("css");
   eleventyConfig.addWatchTarget("series");
-  eleventyConfig.addWatchTarget("episodes");
 
   const { DateTime } = require("luxon");
-
   eleventyConfig.addFilter("justYear", (dateString) => {
     dateObj = new Date(dateString);
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy');

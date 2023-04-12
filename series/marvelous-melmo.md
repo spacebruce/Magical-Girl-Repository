@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Marvelous Melmo
 name: ふしぎなメルモ
 description: Description Text
-tags: ['age-transformation', 'single heroine']
+tags: ['series', 'age-transformation', 'single heroine']
 format: TV
 studio: Tezuka
 date: 1971-10-03

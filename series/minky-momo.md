@@ -6,7 +6,7 @@ description: Minky Momo is a Princess from the kingdom of Fenrasia tasked with r
 id : minky-momo
 episodes: 62
 format: TV
-tags: ['minky-momo', 'age-transformation', 'princess', 'single heroine']
+tags: ['series', 'minky-momo', 'age-transformation', 'princess', 'single heroine']
 date: 1982-03-18
 enddate: 1983-03-18
 ---
