@@ -13,13 +13,4 @@ enddate: 1983-03-18
 ---
 
 ## Overview
-The series was followed up by an OVA, La Ronde in my Dream, set sometime in the latter half of the series, but before Minky Momo's death, and a sequel/reboot series, <a href="/series/minky-momo-2/">Magical Princess Minky Momo Hold on to Your Dreams in 1991</a> that often calls back to and refers to this series, but has a different Momo main character, this time from the Kingdom of Marinasa. 
-
-## Characters
-### Minky Momo
-### Mama & Papa
-### King & Queen
-
-## Plot and Themes
-
-## Opening titles and branding
+The series was followed up by an OVA, La Ronde in my Dream, set sometime in the latter half of the series, but before Minky Momo's death, and a sequel/reboot series, <a href="/series/minky-momo-2/">Magical Princess Minky Momo Hold on to Your Dreams in 1991</a> that often calls back to and refers to this series, but has a different Momo main character, this time from the Kingdom of Marinasa.

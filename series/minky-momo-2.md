@@ -4,6 +4,7 @@ title: Magical Princess Minky Momo Hold on to Your Dreams
 name: 魔法のプリンセス ミンキーモモ 夢を抱きしめて
 description: Description Text
 tags: ['series', 'minky-momo', 'age-transformation', 'princess', 'single heroine']
+subpages: [["/series/minky-momo-1991/", "Main"], ["/series/minky-momo-1991/characters/", "Characters"]]
 format: [ 'TV', 'OVA' ]
 id : minky-momo-2
 date: 1991-10-01
