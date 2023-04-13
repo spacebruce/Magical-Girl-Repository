@@ -4,7 +4,7 @@ title: Marvelous Melmo
 name: ふしぎなメルモ
 description: Description Text
 tags: ['series', 'age-transformation', 'single heroine']
-format: TV
+format: ['TV']
 studio: Tezuka
 date: 1971-10-03
 ended: 

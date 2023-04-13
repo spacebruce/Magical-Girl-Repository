@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="/css/style.css">
-        <link rel="icon" href="/media/uploads/icon.png" type="image/x-icon">
-        <title>Timeline</title>
-    </head>
-    <body>
-        <header>
-            <h1>Majokko Media</h1>
-            <nav>
-                <a href="/">Series list</a> | 
-                <a href="/tags/guide">Episode Guides</a>
-            </nav>
-            <hr>
-        </header>
-        {{ content | safe }}
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/media/assets/favicon.png" type="image/x-icon">
+    <title>Timeline</title>
+</head>
+<body>
+<header>
+    <a href="/"><img class="logo" src="/media/assets/logo.png" alt="Majokko Media"></a>
+    <nav>
+        <ul>Magical girl history and fan site</ul>
+        <ul><a href="/">Home</a></ul>
+        <ul><a href="/list">Series</a></ul>
+        <ul><a href="/tags/guide">Episode Guides</a></ul>
+        <ul><a href="/tags/blog">Updates</a></ul>
+        <ul><a href="/contact">Contact</a></ul>
+    </nav>
+</header>
+{{ content | safe }}
+</body>
 </html>

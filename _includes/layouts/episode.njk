@@ -2,10 +2,15 @@
 layout: layouts/base.njk
 tags: episodes
 ---
-<div class="item_image">
-    <img src="{{ url }}{{ image }}"/>
+<div class="articleHeader">
+    <img class="icon" src="/media/{{ series }}/icon.jpg"/>
+    <div class="details">
+        <h2 class="post-title">{{ title }}</h2>
+        <h2 class="post-title">{{ name }}</h2>
+        <h3 class="post-date">{{ date | readableDate }}</h3>
+        <img class="featured-image" src="{{ image | url }}" alt="{{ image }}"></img>
+    </div>
 </div>
-<h2 class="post-title">{{ title }}</h2>
-<h3 class="post-date">{{ date | readableDate }}</h3>
-<img class="featured-image" src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
-<article class="post-content"> {{ content | safe }} </article>
+<article>
+{{ content | safe }}
+</article>

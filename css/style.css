@@ -2,6 +2,10 @@
 :root
 {
   --background-col: #ecc5e0;
+  --button-col: hsl(187 75% 64%);
+  --button-selected-col: red;
+  --panel-col:hsl(187 70% 85%);
+  --page-width: 1366px;
 }
 
 body {
@@ -12,22 +16,33 @@ body {
 
 header
 {
-  position: sticky;
-  top: 0;
+  margin: auto;
+	max-width: calc(var(--page-width) / 2);
   z-index: 999;
   background: var(--background-col);
+  text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+header .logo
+{
+  width:256px;
+  height:192px;
+  margin:0px;
+  padding:0%;
+  flex-basis:40%;
+}
+header nav
+{
+  flex-basis: 40%;
+  max-width: 640px;
 }
 
 *,
 *::before,
 *::after {
 	box-sizing: inherit;
-}
-
-header
-{
-  text-align: center;
-  color: white;
 }
 .icon
 {
@@ -37,29 +52,38 @@ header
   margin: 0 15px 0 0;
 }
  
-.timeline_item
+.timeline_item h1, .timeline_item h2
 {
-	background: hsl(187 70% 85%);
-	width: 100%; 
-	border-radius: 0.5rem;
-	overflow: hidden;
-	border: 0.2rem solid;
-  line-height: 0.5em;
+  margin-top:0;
   text-align: center;
 }
-.timeline_item_body
+.timeline_item
 {
+	background: var(--panel-col);
+	border-radius: 0.5rem;
+	overflow: hidden;
+  line-height: 0.5em;
+  text-align: center;
 	display: flex;
 	flex-wrap: wrap;
+	border: 0.2rem solid;
+}
+.timeline .timeline_item
+{
+}
+.articleHeader .timeline_item
+{  
+  max-width: calc(var(--page-width) + 46px);
+  margin: auto;
 }
 .timeline_item .timeline_image img
 {
-	aspect-ratio: 1;
+	aspect-ratio: 1/1;
 	object-fit: cover;
-	flex: 1 1 128px;
-	outline: 0.3em solid;
-  max-width:128px;
-  margin:15px;
+	flex: 1 1 300px;
+	outline: 0.2rem solid;
+  width: 256px;
+  height:100%;
 }
 .timeline_item_text {
 	padding: min(2rem, 5vw) min(2rem, 5vw) min(2.5rem, 5vw);
@@ -70,33 +94,56 @@ header
 .timeline_item_text > * + * {
 	margin: min(1.5rem, 2.5vw) 0 0 0;
 }
-.timeline_item a .bigbutton {
-	display: inline-block;
+.pagelist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bigbutton {
+  flex-basis: auto;
 	color: black;
-	padding: 0.5rem 1rem;
-	text-decoration: none;
-	background: hsl(187 75% 64%);
-	border-radius: 0.6rem;
-	font-weight: 700;
-	border: 0.35rem solid;
-}
-.timeline_tags {
-  margin: 0px;
-  display: inline-flex;
-  height: 1.5em;
-}
-
-.articleHeader {
+  padding:1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  border-radius: 1em;
+	background: var(--button-col);
   text-align: center;
 }
+.bigbutton_selected {
+  background: var(--button-selected-col);
+}
 
-article, .articleHeader, .timeline {
-	max-width: 1024px;
+.timeline_tags {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 0;
+  margin-top:0;
+}
+.tag {
+  flex-basis: auto;
+  margin:0.2em;
+	background: var(--button-col);
+  max-height:2em;
+}
+
+.articleHeader
+{
+  display: contents;
+}
+article, .timeline {
+  overflow: auto;
+	max-width: var(--page-width);
   margin: auto;
-  border: 2px solid #232b50;
+  border: 2px solid #000000;
   border-radius: 0.5em;
   padding: 1.5em;
   background-color: white;
+}
+
+div.timeline_item:nth-child(3) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1)
+{
+  max-height:48px;
 }
 
 article table
@@ -116,6 +163,23 @@ article table img, article table video
   width:10vw;
 }
 
+.inline_left 
+{
+  float:left;
+  max-height: 50vh;
+  max-width: 30%;
+  margin: 8px 0 0 20px;
+  padding: 4px;
+}
+.inline_right
+{
+  float:right;
+  max-height: 50vh;
+  max-width: 30%;
+  margin: 8px 0 0 20px;
+  padding: 4px;
+}
+
 th, td
 {
   overflow:auto;
@@ -124,6 +188,23 @@ th, td
 .construction
 {
   max-height: 50vh;
+}
+
+hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr:after {
+  background-color: var(--panel-col);
+  content: '☆';
+  padding: 0 4px;
+  position: relative;
+  top: -0.25em;
 }
 
 a:visited { text-decoration: none; color:black; }
