@@ -8,7 +8,6 @@ tags: [ 'minky-momo' ]
 date: 1982-03-18
 enddate: 1983-03-18
 ---
-
 <br>ミンキーモモ : 小山茉美
 <br>王様 : 増岡弘
 <br>王女様 : 塚田恵美子
@@ -28,6 +27,10 @@ By saying the magic words, she transforms into her adult alter-ego. Once transfo
 
 Goes on adventures with her pets, Sindbook the Dog, Mocha the Monkey and Pipiru the Bird.
 
+<div class="gallery">
+    <img src="..\Media\Episode_01_snapshot_03.35.265.jpg">
+</div>
+
 <h2>Mama and Papa (ママ & パパ)</h2>
 <div class="inline_left"><img class src="../media/mama-papa.png"></div>
 Papa voiced by : (納谷六朗)
@@ -35,13 +38,22 @@ Mama voiced by : (土井美加)
 
 Minky Momo's adopted human parents, extremely susceptilble to hypnotism and brainwashing.
 
+<div class="gallery">
+</div>
+
 <h2>Sindbook (シンドブック), Mocha (モチャー) and Pipiru (ピピル)</h2>
 <div class="inline_left"><img src="../media/pets.png"></div>
 Sindbook voiced by : (田ノ中勇)
 Mocha voiced by : (木藤玲子)
 Pipiru voiced by : (三田ゆう子)
 
+<div class="gallery">
+</div>
+
 <h2>King and Queen of Fenanrasia</h2>
 <img class="inline_left" src="../media/king_queen.png">
 King voiced by : (増岡弘)
 Queen voiced by : (塚田恵美子)
+
+<div class="gallery">
+</div>

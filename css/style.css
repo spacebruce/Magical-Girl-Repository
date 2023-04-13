@@ -215,39 +215,16 @@ a:hover { text-decoration: none; color:black; }
 a:focus { text-decoration: none; color:black; }
 a:hover, a:active { text-decoration: none; color:black; }
 
-
-.gallery_row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-/* Create four equal columns that sits next to each other */
-.gallery_column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-.gallery_column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .gallery_column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
+.gallery
+{ 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
   }
-}
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .gallery_column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
+.gallery img
+{
+  border: 2px solid black;
+  border-radius: 1em;
+  max-width: 100%;
 }

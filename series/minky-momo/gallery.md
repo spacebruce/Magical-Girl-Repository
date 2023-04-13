@@ -9,17 +9,16 @@ date: 1982-03-18
 enddate: 1983-03-18
 ---
 
-<div class="gallery_row">
-    <div class="gallery_column">
-        test 1<br>test 2<br>test 3<br>test 4
-    </div>   
-    <div class="gallery_column">
-        test 1<br>test 2<br>test 3<br>test 4
-    </div>   
-    <div class="gallery_column">
-        test 1<br>test 2<br>test 3<br>test 4
-    </div>   
-    <div class="gallery_column">
-        test 1<br>test 2<br>test 3<br>test 4
-    </div>
+<h2> Episode 1 </h2>
+<div class="gallery">
+    <img src="../Media/Episode_01_snapshot_03.35.265.jpg">
+    <img src="../Media/Episode_01-T00.17.25.920-F25077.0003.jpg">
+</div>
+<h2> Episode 2 </h2>
+<div class="gallery">
+    <img src="../Media/Episode_02-T00.11.37.947-F16734.0009.jpg">
+</div>
+<h2> Episode 3 </h2>
+<div class="gallery">
+    <img src="../Media/Episode_03-T00.15.46.404-F22691.0056.jpg">
 </div>
