@@ -2,14 +2,11 @@ const htmlmin = require("html-minifier");
 
 module.exports = function (eleventyConfig)
 {
-  eleventyConfig.addPassthroughCopy("media");
-  eleventyConfig.addPassthroughCopy("admin");
-  eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("series/**/*.jpg");
   eleventyConfig.addPassthroughCopy("series/**/*.png");
   eleventyConfig.addPassthroughCopy("series/**/*.mp4");
-  eleventyConfig.addWatchTarget("media");
-  eleventyConfig.addWatchTarget("css");
+  eleventyConfig.addWatchTarget("assets");
   eleventyConfig.addWatchTarget("series");
 
   const { DateTime } = require("luxon");

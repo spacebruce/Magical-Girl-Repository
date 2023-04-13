@@ -10,14 +10,14 @@ pagination:
 <div class="timeline">
     {% for post in series %}
     <div class="timeline_item">
-        <a class="timeline_image" href="{{ post.url | url }}"><img  src="/media/{{ post.data.id }}/icon.jpg"/></a>
+        <a class="timeline_image" href="{{ post.url | url }}"><img  src="/series/{{ post.data.id }}/media/icon.jpg"/></a>
         <div class = "timeline_item_text">
         <a href="{{ post.url | url }}"><h1>{{ post.data.title }}</h1><h2>{{ post.data.name }}</h2></a><p>
         <h2 class="post-date">{{ post.date | readableDate }}{% if post.data.enddate %} - {{ post.data.enddate | readableDate }}{% endif %}</h2>
         {% if post.data.subpages %}<div class="pagelist">{% for page in post.data.subpages %}<a class="bigbutton" href="{{ page[0] }}">{{ page[1] }} </a>{% endfor %}</div>{% endif %}
         <hr><br>{{ post.data.description }}<p>
-        <div class="timeline_tags"> Tags: {% for tag in post.data.tags %}{% if tag != "series" %}<a href="/tags/{{ tag }}"><img class="tag" src="/media/assets/tags/{{ tag }}.png"</img></a>{% endif %}{% endfor %} </div>
-        <div class="timeline_tags"> Formats: {% for tag in post.data.format %}{% if tag != "series" %}<img class="tag" src="/media/assets/tags/format_{{ tag }}.png"</img>{% endif %}{% endfor %}</div>
+        <div class="timeline_tags"> Tags: {% for tag in post.data.tags %}{% if tag != "series" %}<a href="/tags/{{ tag }}"><img class="tag" src="/assets/tags/{{ tag }}.png"</img></a>{% endif %}{% endfor %} </div>
+        <div class="timeline_tags"> Formats: {% for tag in post.data.format %}{% if tag != "series" %}<img class="tag" src="/assets/tags/format_{{ tag }}.png"</img>{% endif %}{% endfor %}</div>
         </div>
     </div>
     {% endfor %}

@@ -3,7 +3,7 @@ layout: layouts/base.njk
 ---
 <div class="articleHeader">
     <div class="timeline_item">
-        <a class="timeline_image" href="{{ url | url }}"><img  src="/media/{{ id }}/icon.jpg"/></a>
+        <a class="timeline_image" href="{{ url | url }}"><img  src="/series/{{ id }}/media/icon.jpg"/></a>
         <div class = "timeline_item_text">
         <h1>{{ title }}</h1><h2>{{ name }}</h2></a><p>
         <h2 class="post-date">{{ date | readableDate }}{% if enddate %} - {{ enddate | readableDate }}{% endif %}</h2>

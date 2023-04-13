@@ -13,4 +13,5 @@ enddate: 1983-03-18
 ---
 
 ## Overview
+Officially <a href="Media/Mahou_no_Princess_Minky_Momo_Yume_no_Naka_no_Rondo_00.07.42.278.jpg">"Fairy Princess Minky Momo"</a>
 The series was followed up by an OVA, La Ronde in my Dream, set sometime in the latter half of the series, but before Minky Momo's death, and a sequel/reboot series, <a href="/series/minky-momo-2/">Magical Princess Minky Momo Hold on to Your Dreams in 1991</a> that often calls back to and refers to this series, but has a different Momo main character, this time from the Kingdom of Marinasa.

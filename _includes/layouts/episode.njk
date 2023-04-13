@@ -3,12 +3,13 @@ layout: layouts/base.njk
 tags: episodes
 ---
 <div class="articleHeader">
-    <img class="icon" src="/media/{{ series }}/icon.jpg"/>
-    <div class="details">
+    <div class="timeline_item">
+        <div class="timeline_image"><img src="/series/{{ series }}/media/{{ image | url }}"/></div>
+        <div class = "timeline_item_text">
         <h2 class="post-title">{{ title }}</h2>
         <h2 class="post-title">{{ name }}</h2>
         <h3 class="post-date">{{ date | readableDate }}</h3>
-        <img class="featured-image" src="{{ image | url }}" alt="{{ image }}"></img>
+        </div>
     </div>
 </div>
 <article>

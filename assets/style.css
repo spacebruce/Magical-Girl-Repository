@@ -227,4 +227,5 @@ a:hover, a:active { text-decoration: none; color:black; }
   border: 2px solid black;
   border-radius: 1em;
   max-width: 100%;
+	object-fit: contain; 
 }
