@@ -1,11 +1,10 @@
-
 :root
 {
   --background-col: #ecc5e0;
   --button-col: hsl(187 75% 64%);
   --button-selected-col: red;
   --panel-col:hsl(187 70% 85%);
-  --page-width: 1366px;
+  --page-width: 1024px;
 }
 
 body {
@@ -54,7 +53,7 @@ header nav
  
 .timeline_item h1, .timeline_item h2
 {
-  margin-top:0;
+  margin: 0;
   text-align: center;
 }
 .timeline_item
@@ -62,7 +61,6 @@ header nav
 	background: var(--panel-col);
 	border-radius: 0.5rem;
 	overflow: hidden;
-  line-height: 0.5em;
   text-align: center;
 	display: flex;
 	flex-wrap: wrap;
@@ -201,13 +199,12 @@ hr {
   text-align: center;
   height: 5px;
 }
-
 hr:after {
   background-color: var(--panel-col);
   content: '☆';
   padding: 0 4px;
   position: relative;
-  top: -0.25em;
+  top: -0.9em;
 }
 
 a:visited { text-decoration: none; color:black; }
@@ -221,11 +218,16 @@ a:hover, a:active { text-decoration: none; color:black; }
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 20px;
   align-items: stretch;
-  }
+}
 .gallery img
 {
   border: 2px solid black;
   border-radius: 1em;
   max-width: 100%;
 	object-fit: contain; 
+}
+
+.page_region
+{
+  overflow: auto;
 }
