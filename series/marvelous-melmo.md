@@ -19,7 +19,7 @@ I've included the 1972 version for viewing and download here as finding it isn't
 
 | 1972 version | 1998 version |
 | ----------- | ----------- |
-| ![1972](/media/marvelous-melmo/titlecard-1.jpg) | ![1998](/media/marvelous-melmo/titlecard-2.jpg) |
+| ![1972](media/titlecard-1.jpg) | ![1998](media/titlecard-2.jpg) |
 
-<video controls> <source src="/media/marvelous-melmo/melmo_op-1.mp4" type="video/mp4"> </video>
-<a href="/media/marvelous-melmo/melmo_op-1.mp">Download video</a>
+<video controls> <source src="media/melmo_op-1.mp4" type="video/mp4"> </video>
+<a href="/media/melmo_op-1.mp4">Download video</a>

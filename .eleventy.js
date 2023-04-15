@@ -24,13 +24,6 @@ module.exports = function (eleventyConfig)
     return collectionApi.getFilteredByTags("post", "page");
   });
 
-  //eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
-  //  if (outputPath.endsWith(".html")) {
-  //    return htmlmin.minify(content, {
-  //      removeComments: true,  
-  //      useShortDoctype: true,
-  //    });
-  //  }
-  //  return content;
-  //});
+  // ADD THIS
+  eleventyConfig.addShortcode("thumbnail", (path, text) => `<a href="${path}"><img src="${path}">${text}</a>`);
 };

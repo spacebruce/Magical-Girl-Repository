@@ -45,7 +45,6 @@ header nav
 }
 .icon
 {
-  border-radius: 50%;
   max-width:128px;
   float: left;    
   margin: 0 15px 0 0;
@@ -65,9 +64,7 @@ header nav
 	display: flex;
 	flex-wrap: wrap;
 	border: 0.2rem solid;
-}
-.timeline .timeline_item
-{
+  margin-top: 1em;
 }
 .articleHeader .timeline_item
 {  
@@ -76,15 +73,14 @@ header nav
 }
 .timeline_item .timeline_image img
 {
-	aspect-ratio: 1/1;
-	object-fit: cover;
+  object-fit: cover;
 	flex: 1 1 300px;
 	outline: 0.2rem solid;
-  width: 256px;
+  width:192px;
   height:100%;
 }
 .timeline_item_text {
-	padding: min(2rem, 5vw) min(2rem, 5vw) min(2.5rem, 5vw);
+	padding: 0.5em;
 	flex: 1 0 50%;
   text-align: left;
   display: block;
@@ -161,19 +157,21 @@ article table img, article table video
   width:10vw;
 }
 
+.inline_left, .inline_right
+{
+  margin: 1em;
+  padding: 4px;
+  border:2px solid black;
+}
 .inline_left 
 {
   float:left;
+  margin-left:0;
 }
 .inline_right
 {
   float:right;
-}
-.inline_left, .inline_right
-{
-  margin: 2em;
-  padding: 4px;
-  border:2px solid black;
+  margin-right: 0;
 }
 .inline_left img, .inline_right img
 {
@@ -198,6 +196,7 @@ hr {
   overflow: visible;
   text-align: center;
   height: 5px;
+  margin-top:0;
 }
 hr:after {
   background-color: var(--panel-col);

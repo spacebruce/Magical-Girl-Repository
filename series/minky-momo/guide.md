@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: Magical Princess Minky Momo | Episode Guide
 name: 魔法のプリンセス ミンキー モモ
-description: Minky Momo is a Princess from the kingdom of Fenrasia tasked with restoring the dreams of the people of earth. 
+description: 
 subpages: [['/series/minky-momo/','Main'], ['/series/minky-momo/characters/','Characters'], ['/series/minky-momo/guide/','Episode Guide'], ['/series/minky-momo/gallery/', 'Gallery' ]]
 id : minky-momo
 episodes: 62
