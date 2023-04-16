@@ -6,7 +6,7 @@ pagination:
 permalink: /tags/{{ tag }}/
 layout: layouts/tag.njk
 ---
-<h1>{{ tag }}</h1>
+<img src="/assets/tags/{{ tag }}.png">
 <ol>
 {% set taglist = collections[ tag ] %}
 {% for post in taglist %}

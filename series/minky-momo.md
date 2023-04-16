@@ -7,7 +7,7 @@ subpages: [['/series/minky-momo/','Main'], ['/series/minky-momo/characters/','Ch
 id : minky-momo
 episodes: 62
 format: ['TV', 'OVA', 'Movie', 'Novel']
-tags: ['series', 'minky-momo', 'age-transformation', 'princess', 'single heroine']
+tags: ['series', 'minky-momo', 'age-change', 'princess', 'single heroine']
 date: 1982-03-18
 enddate: 1983-03-18
 ---

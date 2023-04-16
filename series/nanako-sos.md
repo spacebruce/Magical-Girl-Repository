@@ -9,4 +9,4 @@ tags: ['series', 'single heroine', 'superhero']
 date: 1983-04-02
 ---
 
-<img class="construction" src="/media/assets/construction.jpg">
+<img class="construction" src="/assets/construction.jpg">
