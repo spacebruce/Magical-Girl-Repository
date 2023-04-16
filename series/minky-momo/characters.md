@@ -29,9 +29,9 @@ enddate: 1983-03-18
     Goes on adventures with her pets, Sindbook the Dog, Mocha the Monkey and Pipiru the Bird.
 </div>
 <div class="gallery"> 
-    <img src="..\Media\Episode_01_snapshot_03.35.265.jpg">
-    <img src="..\Media\Episode_01_snapshot_03.35.265.jpg">
-    <img src="..\Media\Episode_01_snapshot_03.35.265.jpg">
+    {% thumbnail "../media/Episode_01_03.35.265.jpg", "" %}
+    {% thumbnail "../media/Episode_01_03.35.265.jpg", "" %}
+    {% thumbnail "../media/Episode_01_03.35.265.jpg", "" %}
 </div>
 
 <div class="page_region">
@@ -42,7 +42,8 @@ enddate: 1983-03-18
 
     Minky Momo's adopted human parents, deeply head over heels in love with each other, extremely susceptilble to hypnotism and brainwashing.
 </div>
-<div class="gallery"></div>
+<div class="gallery">
+</div>
 
 <div class="page_region">
     <h2>Sindbook (シンドブック), Mocha (モチャー) and Pipiru (ピピル)</h2>
@@ -59,7 +60,6 @@ enddate: 1983-03-18
     Queen voiced by : (塚田恵美子)
 </div>
 <div class="gallery">
-    <img src="../media/Episode_04_snapshot_02.00.309.jpg">
-    <img src="../media/Screenshot-Episode 46-T00.18.37.750-F33499.0002.jpg">
-    <img src="../media/Screenshot-Episode 46-T00.18.39.685-F33557.0003.jpg">
+    {% thumbnail "../media/Screenshot-Episode 46-T00.18.37.750-F33499.0002.jpg", "" %}
+    {% thumbnail "../media/Screenshot-Episode 46-T00.18.39.685-F33557.0003.jpg", "" %}
 </div>

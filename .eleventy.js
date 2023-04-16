@@ -1,4 +1,18 @@
 const htmlmin = require("html-minifier");
+const Image = require('@11ty/eleventy-img');
+const path = require('path');
+
+// Thumbnailify
+const imageShortcode = async (relativeSrc, alt, className, widths = [null, 400, 800, 1280], formats = ['jpeg', 'webp'], sizes = '100vw') => {
+  const { dir: imgDir } = path.parse(relativeSrc);
+  const fullSrc = path.join('src', relativeSrc);
+  const imageMetadata = await Image(fullSrc, {
+    widths,
+    formats,
+    outputDir: path.join('_site', imgDir),
+    urlPath: imgDir,
+  });
+};
 
 module.exports = function (eleventyConfig)
 {
