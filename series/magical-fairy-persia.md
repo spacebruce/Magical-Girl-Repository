@@ -5,7 +5,7 @@ name: 魔法の妖精 ペルシャ
 description: Description Text
 format: ['TV']
 date: 1985-07-06
-tags: [ 'series', 'age-change' ]
+tags: [ 'series', 'age-change', "single-heroine" ]
 id: magical-fairy-persia
 ---
 

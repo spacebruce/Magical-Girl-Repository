@@ -5,7 +5,7 @@ name: ななこSOS
 description: Description Text
 id : nanako-sos
 format: ['TV']
-tags: ['series', 'single heroine', 'superhero']
+tags: ['series', 'single-heroine', 'superhero']
 date: 1983-04-02
 ---
 
