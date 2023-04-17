@@ -39,5 +39,5 @@ module.exports = function (eleventyConfig)
   });
 
   // ADD THIS
-  eleventyConfig.addShortcode("thumbnail", (path, text) => `<a href="${path}"><img src="${path}">${text}</a>`);
+  eleventyConfig.addShortcode("thumbnail", (series, path, text) => `<a href="/series/${series}/media/${path}"><img src="/series/${series}/media/${path}">${text}</a>`);
 };

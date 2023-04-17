@@ -26,9 +26,9 @@ tags: [ 'characters' ]
     She is accompanied on her adventures with her pets, Sindbook the Dog, Mocha the Monkey and Pipiru the Bird.
 </div>
 <div class="gallery"> 
-    {% thumbnail "../media/Episode_01_03.35.265.jpg", "" %}
-    {% thumbnail "../media/Episode_01_03.35.265.jpg", "" %}
-    {% thumbnail "../media/Episode_01_03.35.265.jpg", "" %}
+    {% thumbnail series,"../media/Episode_01_03.35.265.jpg", "" %}
+    {% thumbnail series,"../media/Episode_01_03.35.265.jpg", "" %}
+    {% thumbnail series,"../media/Episode_01_03.35.265.jpg", "" %}
 </div>
 
 <div class="page_region">
@@ -63,6 +63,6 @@ Joining in with Momo's adventures with varying degrees of enthusiasm. In episode
     <h3>Queen voiced by : (塚田恵美子)</h3>
 </div>
 <div class="gallery">
-    {% thumbnail "../media/Screenshot-Episode 46-T00.18.37.750-F33499.0002.jpg", "" %}
-    {% thumbnail "../media/Screenshot-Episode 46-T00.18.39.685-F33557.0003.jpg", "" %}
+    {% thumbnail series,"../media/Screenshot-Episode 46-T00.18.37.750-F33499.0002.jpg", "" %}
+    {% thumbnail series,"../media/Screenshot-Episode 46-T00.18.39.685-F33557.0003.jpg", "" %}
 </div>

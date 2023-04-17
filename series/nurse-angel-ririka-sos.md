@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Nurse Angel Ririrka SOS
 name: ナースエンジェルりりかＳＯＳ
 description: Description Text
-id : nurse-angel-ririka-sos
+series : nurse-angel-ririka-sos
 format: ['TV']
 tags: ['series', 'single-heroine', 'nurse']
 date: 1995-07-07

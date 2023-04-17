@@ -1,6 +1,5 @@
 ---
 layout: series/minky-momo.njk
-id : minky-momo
 pagename : ""
 tags: ['series',]
 ---

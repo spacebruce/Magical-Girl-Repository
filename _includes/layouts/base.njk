@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="icon" href="/assets/favicon.png" type="image/x-icon">
-    <title>{{ title }}</title>
+    {% if pagename %}
+        <title>{{ title }} | {{ pagename }} | Majokko Media</title>
+    {% else %}
+        <title>{{ title }} | Majokko Media</title>
+    {% endif %}
+
 </head>
 <body>
 <header>

@@ -7,7 +7,7 @@ subpages: [['/series/magical-angel-sweet-mint/','Main'], ['/series/magical-angel
 format: [ 'TV' ]
 date: 1990-05-02
 tags: [ 'series', 'princess' ]
-id: magical-angel-sweet-mint
+series: magical-angel-sweet-mint
 ---
 
 Text for the post is here

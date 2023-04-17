@@ -10,7 +10,7 @@ pagination:
 <div class="timeline">
     {% for post in series %}
     <div class="timeline_item">
-        <a class="timeline_image" href="{{ post.url | url }}"><img  src="/series/{{ post.data.id }}/media/icon.jpg"/></a>
+        <a class="timeline_image" href="{{ post.url | url }}"><img  src="/series/{{ post.data.series }}/media/icon.jpg"/></a>
         <div class = "timeline_item_text">
         <a href="{{ post.url | url }}"><h1>{{ post.data.title }}</h1><h2>{{ post.data.name }}</h2></a>
         <h2 class="post-date">{{ post.date | readableDate }}{% if post.data.enddate %} - {{ post.data.enddate | readableDate }}{% endif %}</h2>

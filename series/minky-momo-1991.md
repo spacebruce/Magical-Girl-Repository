@@ -6,7 +6,7 @@ description: Description Text
 tags: ['series', 'minky-momo', 'age-change', 'princess', 'single-heroine']
 subpages: [["/series/minky-momo-1991/", "Main"], ["/series/minky-momo-1991/gallery/", "Gallery"]]
 format: [ 'TV', 'OVA' ]
-id : minky-momo-1991
+series : minky-momo-1991
 date: 1991-10-01
 ---
 

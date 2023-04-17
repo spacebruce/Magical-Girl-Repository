@@ -6,7 +6,7 @@ description: Description Text
 format: ['TV']
 date: 1985-07-06
 tags: [ 'series', 'age-change', "single-heroine" ]
-id: magical-fairy-persia
+series: magical-fairy-persia
 ---
 
 Text for the post is here
