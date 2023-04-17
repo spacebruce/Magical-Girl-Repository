@@ -1,15 +1,7 @@
 ---
-layout: layouts/post.njk
-title: Magical Princess Minky Momo | Episode Guide
-name: 魔法のプリンセス ミンキー モモ
-description: 
-subpages: [['/series/minky-momo/','Main'], ['/series/minky-momo/characters/','Characters'], ['/series/minky-momo/guide/','Episode Guide'], ['/series/minky-momo/gallery/', 'Gallery' ]]
-id : minky-momo
-episodes: 62
-format: ['TV', 'OVA', 'Movie', 'Novel']
-tags: [ 'minky-momo', 'guide']
-date: 1982-03-18
-enddate: 1983-03-18
+layout: series/minky-momo.njk
+pagename : "Episode Guide"
+tags: [ 'guide' ]
 ---
 <table class="EpisodeList">
 <tr><th>Episode</th><th>Date</th><th>Titlecard</th><th>Image</th><th>English</th><th>Japanese</th></tr>

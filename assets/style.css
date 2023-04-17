@@ -177,6 +177,7 @@ article table img, article table video
 {
   margin: 1em;
   padding: 4px;
+  text-align: center;
   border:2px solid var(--button-border);
 }
 .inline_left 
@@ -230,9 +231,9 @@ a:hover, a:active { text-decoration: none; color: var(--text-col); }
 .gallery
 { 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 20px;
-  align-items: stretch;
+  grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+  grid-gap: 1em;
+  align-items:normal;
 }
 .gallery img
 {

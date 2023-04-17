@@ -1,13 +1,9 @@
 ---
-layout: layouts/post.njk
-title: Magical Princess Minky Momo | Characters
-name: 魔法のプリンセス ミンキー モモ
-subpages: [['/series/minky-momo/','Main'], ['/series/minky-momo/characters/','Characters'], ['/series/minky-momo/guide/','Episode Guide'], ['/series/minky-momo/gallery/', 'Gallery' ]]
-id : minky-momo
-tags: [ 'minky-momo' ]
-date: 1982-03-18
-enddate: 1983-03-18
+layout: series/minky-momo.njk
+pagename : "Characters"
+tags: [ 'characters' ]
 ---
+
 <br>ミンキーモモ : 小山茉美
 <br>王様 : 増岡弘
 <br>王女様 : 塚田恵美子
@@ -20,13 +16,14 @@ enddate: 1983-03-18
 
 <div class="page_region">
     <h2>Minky Momo (ミンキーモモ)</h2>
-    <div class="inline_left"><img src="../media/momo-small.png">test</div>
-    <div class="inline_right"><img src="../media/momo-big.png">test</div>
+    <div class="inline_left"><img src="../media/momo-small.png">Momo as a child</div>
+    <div class="inline_right"><img src="../media/momo-big.png">Momo as a adult</div>
     <h3>Voiced by : Mami Koyama (小山茉美)</h3>
 
-    By saying the magic words, she transforms into her adult alter-ego and gains the skills and outfit of a profession she chooses to fit the problem of the week, if there's a fire she becomes a firefighter, a race means becoming a race driver. It's demonstrated on several occasions that she retains her skills after reverting to her child form, but staying as an adult is useful for being less conspicuous or better inhabiting a role. 
+    By saying the magic words, she transforms into her adult alter-ego and gains the skills and outfit of a profession she chooses to fit the problem of the week, if there's a fire she becomes a firefighter, a race means becoming a race driver, a football player. 
+    It's demonstrated on several occasions that she retains her gained skills and knowledge after reverting to her child form, but staying as an adult is useful for being less conspicuous or better inhabiting a role. 
 
-    She is acompanied on her adventures with her pets, Sindbook the Dog, Mocha the Monkey and Pipiru the Bird.
+    She is accompanied on her adventures with her pets, Sindbook the Dog, Mocha the Monkey and Pipiru the Bird.
 </div>
 <div class="gallery"> 
     {% thumbnail "../media/Episode_01_03.35.265.jpg", "" %}
@@ -37,13 +34,17 @@ enddate: 1983-03-18
 <div class="page_region">
     <h2>Sindbook (シンドブック), Mocha (モチャー) and Pipiru (ピピル)</h2>
     <div class="inline_left"><img src="../media/pets.png"></div>
-    Joining in with Momo's adventures with varying degrees of enthusiasm. In episode 5 it's revealed they were only sent along with Momo because they were the only inhabitants of Fenarinarsa that had woken up in time for Momo to leave.
-
+Joining in with Momo's adventures with varying degrees of enthusiasm. In episode 5 it's revealed they were only sent along with Momo because they were the only inhabitants of Fenarinarsa that had woken up in time for Momo to go to earth.
 <h3>Sindbook voiced by : (田ノ中勇)</h3>
+<div class="inline_left"><img src="../media/sindbook.png">Sindbook</div>
 <h3>Mocha voiced by : (木藤玲子)</h3>
+<div class="inline_right"><img src="../media/mocha.png">Mocha</div>
 <h3>Pipiru voiced by : (三田ゆう子)</h3>
+<div class="inline_left"><img src="../media/pipiru.png">Pipiru</div>
 </div>
-<div class="gallery"></div>
+<div class="gallery">
+
+</div>
 
 <div class="page_region">
     <h2>Mama and Papa (ママ & パパ)</h2>

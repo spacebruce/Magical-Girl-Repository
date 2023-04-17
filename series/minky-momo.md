@@ -1,15 +1,8 @@
 ---
-layout: layouts/post.njk
-title: Magical Princess Minky Momo
-name: 魔法のプリンセス ミンキー モモ
-description: Minky Momo is a Princess from the kingdom of Fenarinarsa tasked with restoring the dreams of the people of earth. 
-subpages: [['/series/minky-momo/','Main'], ['/series/minky-momo/characters/','Characters'], ['/series/minky-momo/guide/','Episode Guide'], ['/series/minky-momo/gallery/', 'Gallery' ]]
+layout: series/minky-momo.njk
 id : minky-momo
-episodes: 62
-format: ['TV', 'OVA', 'Movie', 'Novel']
-tags: ['series', 'minky-momo', 'age-change', 'princess', 'single-heroine']
-date: 1982-03-18
-enddate: 1983-03-18
+pagename : ""
+tags: ['series',]
 ---
 
 ## Overview
